@@ -35,6 +35,8 @@ class TwentyFourtyEightXBlock(XBlock):
         html = self.resource_string("static/html/twenty_fourty_eight.html")
         frag = Fragment(html.format(self=self))
         frag.add_css(self.resource_string("static/css/twenty_fourty_eight.css"))
+        frag.add_css(self.resource_string("static/css/main.css"))
+
         frag.add_javascript(self.resource_string("static/js/src/twenty_fourty_eight.js"))
         frag.add_javascript(self.resource_string("static/js/src/animframe_polyfill.js"))
         frag.add_javascript(self.resource_string("static/js/src/application.js"))
