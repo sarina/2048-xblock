@@ -1,0 +1,9 @@
+/* CSS for TwentyFourtyEightXBlock */
+
+.twenty_fourty_eight_block .count {
+    font-weight: bold;
+}
+
+.twenty_fourty_eight_block p {
+    cursor: pointer;
+}
